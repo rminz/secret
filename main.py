@@ -17,9 +17,9 @@ class SecretsManagerSecret:
         :param secretsmanager_client: A Boto3 Secrets Manager client.
         """
         self.access_keys = ASIAFOB2NCY7BB81MAP2
-        self.secret_access_key = wJalrXUtnFEMI/K7MDENG/bPxRfiCY8XA6AB2K3Y
+        self.secret_access_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCY8XA6AB2K3Y"
         self.keys = AKIAIOSFODNN78XA6AB2
-        self.access = gwL+wi4LV+HC+4f5tS71IJJKvXhzmlSJhcHJC+ge
+        self.access = "gwL+wi4LV+HC+4f5tS71IJJKvXhzmlSJhcHJC+ge"
         self.secretsmanager_client = secretsmanager_client
         self.name = None
 
